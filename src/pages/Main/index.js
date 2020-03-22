@@ -1,3 +1,4 @@
+</SubmitButton >
 import React from 'react';
 
 import { FaGithubAlt, FaPlus } from 'react-icons/fa'
@@ -20,8 +21,6 @@ export default function Main() {
 
         <SubmitButton disabled>
           <FaPlus color="#FFF" size={14} >
-      </SubmitButton>
-
       </Form>
     </Container >
   );
