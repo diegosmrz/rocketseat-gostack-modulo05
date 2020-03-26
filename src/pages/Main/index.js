@@ -1,12 +1,16 @@
-</SubmitButton >
-import React from 'react';
+import React, { Component } from 'react';
 
 import { FaGithubAlt, FaPlus } from 'react-icons/fa'
 
-import { Contatiner, Form, SubmitButton } from './styles';
+import { Container, Form, SubmitButton } from './styles';
 
-export default function Main() {
-  return (
+export default class Main extends Component {
+  state = {
+
+
+  };
+
+  render() {
     <Container>
       <h1>
         <FaGithubAlt />
@@ -21,7 +25,8 @@ export default function Main() {
 
         <SubmitButton disabled>
           <FaPlus color="#FFF" size={14} >
+        </SubmitButton >
       </Form>
     </Container >
-  );
+  }
 }
