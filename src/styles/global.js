@@ -26,4 +26,4 @@ body, input, button {
 button{
   cursor: pointer;
 }
-`
+`;
